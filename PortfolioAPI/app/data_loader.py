@@ -4,7 +4,7 @@ import os
 class DataLoader:
     """Set of functions to help loading and unloading data"""
     dirname = os.path.dirname(__file__)
-    resume_path = (dirname+"\\resume.json")
+    resume_path = (dirname+"//resume.json")
 
 
     @classmethod
