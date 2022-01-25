@@ -1,94 +1,136 @@
 {
-  "Work_Experience": [
-    {
-      "name": "CaesarstoneUS",
-      "Responsabilities": [
-        "Assisted with helpdesk",
-        "Developed and deployed automated tools to assist with employee management, updating employee accounts, and importing them to salesforce",
-        "Used Microsoft Active Directory to manage employee accounts"
-      ]
-    },
-    {
-      "name": "garlicPasta",
-      "ingredients": [
-        "500mL water",
-        "100g spaghetti",
-        "25mL olive oil",
-        "4 cloves garlic",
-        "Salt"
-      ],
-      "instructions": [
-        "Heat garlic in olive oil",
-        "Boil water in pot",
-        "Add pasta to boiling water",
-        "Remove pasta from water and mix with garlic olive oil",
-        "Salt to taste and enjoy"
-      ]
-    },
-    {
-      "name": "chai",
-      "ingredients": [
-        "400mL water",
-        "100mL milk",
-        "5g chai masala",
-        "2 tea bags or 20 g loose tea leaves"
-      ],
-      "instructions": [
-        "Heat water until 80 C",
-        "Add milk, heat until 80 C",
-        "Add tea leaves/tea bags, chai masala; mix and steep for 3-4 minutes",
-        "Remove mixture from heat; strain and enjoy"
-      ]
-    },
-    {
-      "name": "waffles",
-      "ingredients": [
-        "waffle batter"
-      ],
-      "instructions": [
-        "cook it"
-      ]
-    }
-  ],
-  "Languages": [
-    {
-      "name": "C++"
-    },
-    {
-      "name": "C"
-    },
-    {
-      "name": "Python"
-    },
-    {
-      "name": "Java"
-    },
-    {
-      "name": "SQL"
-    },
-    {
-      "name": "MATLAB"
-    }
-  ],
-  "Projects": [
-    {
-      "name": "ResumeAPI",
-      "Details":"For this project, I created a basic API using Python and Flask"
-    },
-    {
-      "name": "C"
-    },
-    {
-      "name": "Python"
-    },
-    {
-      "name": "Java"
-    },
-    {
-      "name": "SQL"
-    },
-    {
-      "name": "MATLAB"
-    }
-  ]
+	"WorkExperience": [{
+			"name": "Caesarstone US",
+			"location": "Charlotte, NC",
+			"role": "IT Intern",
+			"responsabilities": [
+				"Troubleshot helpdesk tickets, assisting employees all across North America ",
+				"Developed an tool to automate the process of updating employee information and salesforce accounts for 500+ employees.",
+				"Performed administrative tasks with Office365 and Microsoft Active Directory"
+			],
+			"time": "June 2021 - Present"
+		},
+		{
+			"name": "Nourish and Nestle Enterprises LLC",
+			"location": "Wilmington, NC",
+			"role": "Data Analyst and Technical Support",
+			"responsabilities": [
+				"Created and analyzed datasets to optimize ads and email campaigns through MailerLite",
+				"Increased user engagement and retention through mailchimp",
+				"Helped to troubleshoot plugins running on the site"
+			],
+			"time": "May 2019 - Sept 2019"
+		},
+		{
+			"name": "Freelance Computer Repair and Technical Support",
+			"location": "Wilmington, NC",
+			"role": "Software and Hardware Troubleshooting Specialist",
+			"responsabilities": [
+				"Set up, repaired and replaced software and hardware systems for many customers, while donating a portion of the proceeds to a local STEM charity.",
+				"Built and set up home networks for customers.",
+				"Volunteered hardware support for local non-profit organizations."
+			],
+			"time": "April 2016 - Present"
+		}
+	],
+	"Languages": [{
+			"name": "C++"
+		},
+		{
+			"name": "C"
+		},
+		{
+			"name": "Python"
+		},
+		{
+			"name": "Java"
+		},
+		{
+			"name": "SQL"
+		},
+		{
+			"name": "MATLAB"
+		}
+	],
+	"Education": [{
+		"name": "University of North Carolina at Charlotte",
+		"major": "Bachelor of Science in Computer Science",
+		"concentration": "Data Science",
+		"major_gpa": "3.85",
+		"graduation": "May, 2022"
+	}],
+	"ContactInfo": [{
+    	"name": "Robert Spencer",
+		"phone": "1 (910) 200-9422",
+		"email": "rspet123@gmail.com",
+		"github": "https://github.com/rspet123",
+		"linkedin": "https://www.linkedin.com/in/robert-spencer-aa0102207"
+	}],
+	"Projects": [{
+			"name": "ResumAPI",
+			"details": ["For this project, I created and hosted a basic API using Python and Flask to display my portfolio"],
+			"github": "https://github.com/rspet123/Portfolio-API"
+		},
+		{
+			"name": "EvEMarketBot",
+			"details": [
+				"Developed and maintained a basic program to manage market orders in the popular MMO EVE Online",
+				"This tool has been sucessfully deployed with many users, who can easily keep track of prices by using simple, easy to understand commands. ",
+				"This tool uses data from multiple APIs and is capable of comparing data between many locations in the game. The owner of the bot can aslo keep track of who is using it, allowing them to see popular items, as well as banning any user who might abuse the bot",
+				"I am still working with the community that has access to this project to improve upon it through their suggestions."
+			],
+			"github": "https://github.com/rspet123/EvEMarketBot"
+		},
+		{
+			"name": "TarkieBot",
+			"details": [
+				"Developed and maintained a discord bot to help players of the game Escape From Tarkov find the best place to sell their items."
+			],
+			"github": "https://github.com/rspet123/TarkieBot"
+		},
+		{
+			"name": "SpiderFy",
+			"details": ["Developed (WIP) a small program to visualize the connection between artists using the Spotify API and NetworkX"],
+			"github": "https://github.com/rspet123/Spiderfy"
+		},
+		{
+			"name": "EvEFITMINER",
+			"details": ["Developed (WIP) a small data science application to find frequent itemsets in market and item data in the MMO EvE Online"],
+			"github": "https://github.com/rspet123/EVEFitMiner"
+		}
+	],
+	"Coursework": [{
+			"name": "Cloud Computing for Data Analysis"
+		},
+		{
+			"name": "Artificial Intelligence"
+		},
+		{
+			"name": "Digital Image Processing"
+		},
+		{
+			"name": "Information Visualization"
+		},
+		{
+			"name": "Introduction to Data Mining"
+		},
+		{
+			"name": "Operating Systems & Networking"
+		},
+		{
+			"name": "Software Engineering"
+		},
+		{
+			"name": "Intro to Computer Architecture"
+		},
+		{
+			"name": "Data Structures and Algorithms"
+		},
+		{
+			"name": "Database Design and Implementation"
+		},
+		{
+			"name": "Computer Networks"
+		}
+	]
 }
