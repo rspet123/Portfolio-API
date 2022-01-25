@@ -13,9 +13,9 @@ def resume():
     """Gets whole resume"""
     return {"resume": ["ContactInto","Coursework","Education","Languages","Projects","WorkExperience"]},200
 
-@app.get("/hello")
+@app.get("/")
 def hello():
-    return {"resume": ["ContactInto","Coursework","Education","Languages","Projects","WorkExperience"]},200
+    return "Hi, welcome to my API Resume, you can head to /resume to see the different categories, or /resume/categoryname to look at a specific one, you can also go to /comment to find out how to leave a comment"
     
 @app.get("/resume/<resume_type>")
 def get_resume_type(resume_type,loader = loader):
