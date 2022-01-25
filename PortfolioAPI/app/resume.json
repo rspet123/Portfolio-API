@@ -1,0 +1,94 @@
+{
+  "Work_Experience": [
+    {
+      "name": "CaesarstoneUS",
+      "Responsabilities": [
+        "Assisted with helpdesk",
+        "Developed and deployed automated tools to assist with employee management, updating employee accounts, and importing them to salesforce",
+        "Used Microsoft Active Directory to manage employee accounts"
+      ]
+    },
+    {
+      "name": "garlicPasta",
+      "ingredients": [
+        "500mL water",
+        "100g spaghetti",
+        "25mL olive oil",
+        "4 cloves garlic",
+        "Salt"
+      ],
+      "instructions": [
+        "Heat garlic in olive oil",
+        "Boil water in pot",
+        "Add pasta to boiling water",
+        "Remove pasta from water and mix with garlic olive oil",
+        "Salt to taste and enjoy"
+      ]
+    },
+    {
+      "name": "chai",
+      "ingredients": [
+        "400mL water",
+        "100mL milk",
+        "5g chai masala",
+        "2 tea bags or 20 g loose tea leaves"
+      ],
+      "instructions": [
+        "Heat water until 80 C",
+        "Add milk, heat until 80 C",
+        "Add tea leaves/tea bags, chai masala; mix and steep for 3-4 minutes",
+        "Remove mixture from heat; strain and enjoy"
+      ]
+    },
+    {
+      "name": "waffles",
+      "ingredients": [
+        "waffle batter"
+      ],
+      "instructions": [
+        "cook it"
+      ]
+    }
+  ],
+  "Languages": [
+    {
+      "name": "C++"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "MATLAB"
+    }
+  ],
+  "Projects": [
+    {
+      "name": "ResumeAPI",
+      "Details":"For this project, I created a basic API using Python and Flask"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "MATLAB"
+    }
+  ]
+}
